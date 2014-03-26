@@ -15,6 +15,7 @@
 #import <CoreTelephony/CTCarrier.h>
 
 #import "BPUtilities.h"
+#define BALANCED_IOS_VERSION @"1.0.1"
 
 @implementation BPUtilities
 
