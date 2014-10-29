@@ -543,7 +543,8 @@
 		87BD30B41745C18B0099FF6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Balanced;
 			};
 			buildConfigurationList = 87BD30B71745C18B0099FF6C /* Build configuration list for PBXProject "Balanced" */;
@@ -866,10 +867,6 @@
 		87BD30E21745C18B0099FF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
 				DSTROOT = /tmp/Balanced.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Balanced/Balanced-Prefix.pch";
@@ -885,10 +882,6 @@
 		87BD30E31745C18B0099FF6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
 				DSTROOT = /tmp/Balanced.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Balanced/Balanced-Prefix.pch";
@@ -904,10 +897,6 @@
 		87BD30E51745C18B0099FF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -924,10 +913,6 @@
 		87BD30E61745C18B0099FF6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -987,7 +972,6 @@
 		87BD3192174678240099FF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -1005,7 +989,6 @@
 		87BD3193174678240099FF6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -1024,7 +1007,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87BD317F1746778A0099FF6C /* CL.xcconfig */;
 			buildSettings = {
-				ARCHS = i386;
 				DSTROOT = /tmp/Balanced.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Balanced/Balanced-Prefix.pch";
@@ -1041,7 +1023,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87BD317F1746778A0099FF6C /* CL.xcconfig */;
 			buildSettings = {
-				ARCHS = i386;
 				DSTROOT = /tmp/Balanced.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Balanced/Balanced-Prefix.pch";
