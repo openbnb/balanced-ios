@@ -543,7 +543,7 @@
 		87BD30B41745C18B0099FF6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastTestingUpgradeCheck = 0610;
+				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Balanced;
 			};
